@@ -555,7 +555,8 @@ footer .social i {
     }
 
     .dribbble-container {
-        margin: 4px;
+        margin: 0;
+        padding: 0 15px;
     }
 
     nav .navbar-nav {
