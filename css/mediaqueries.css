@@ -1,0 +1,105 @@
+/* Tablet Screens */
+
+@media(max-width:992px) {
+  .nav-bar {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  header {
+    height: 55vh !important;
+  }
+
+  h1 {
+    font-size: 75px !important;
+    line-height: 85px;
+  }
+
+  .list-group-item p {
+    display: none;
+  }
+
+  .list-group-item:hover p {
+    display: none;
+  }
+
+  .footer-col {
+    margin-bottom: 35px;
+  }
+
+  h4 {
+    font-size: 54px;
+    line-height: 65px;
+  }
+
+  h5 {
+    font-size: 35px;
+    line-height: 54px;
+  }
+
+  p,
+  a,
+  h6 {
+    font-size: 22px;
+  }
+
+}
+
+@media(max-width:480px) {
+
+  header {
+    height: 75vh !important;
+  }
+
+  h1 {
+    font-size: 55px !important;
+    line-height: 65px;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  header h6 {
+    margin-top: 60px;
+  }
+
+  .list-group h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  #projects {
+    height: 380px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  h4 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  h5 {
+    font-size: 26px;
+    line-height: 45px;
+  }
+
+  p,
+  a {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 35px;
+  }
+
+  .social-connect {
+    display: none;
+  }
+}
